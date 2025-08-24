@@ -9,11 +9,6 @@ pygame.display.set_caption('Player Movement')
 
 image = pygame.image.load(r'soldier.png')
 
-# win = False
-#if body touch flag :
-#     win = True
-#
-# while win == False:
 
 window = pygame.display.set_mode((1000, 700))
 
