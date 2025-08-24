@@ -2,11 +2,14 @@ import pygame
 import screen
 
 def main():
-    running = True
-    while running:
-        pygame.init()
-        screen.display_surface
-        running = False
+    run = True
+    while run:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                run = False
+
+
+    pygame.quit()
 
 
 
